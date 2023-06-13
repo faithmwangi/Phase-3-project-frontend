@@ -30,7 +30,6 @@ const DrinkForm = ({ onSubmit }) => {
 
   return (
     <div>
-      <h3>Create a New Drink</h3>
       <form onSubmit={handleSubmit}>
         <div>
           <label>Name:</label>

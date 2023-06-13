@@ -1,0 +1,17 @@
+
+
+.navbar-list {
+list-style-type: none;
+display: flex;
+}
+
+.navbar-item {
+margin-right: 10%;
+font-size: xx-large;
+background-color: #000;
+}
+
+.navbar-link {
+color: #fff;
+text-decoration: none;
+}

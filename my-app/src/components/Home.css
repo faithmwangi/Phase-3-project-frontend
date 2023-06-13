@@ -1,0 +1,34 @@
+body{
+    background-image: url('https://cdn.pixabay.com/photo/2019/05/05/21/42/doodle-4181783_1280.png');
+}
+
+h1 {
+    display: inline-block;
+    margin-top: 15%;
+    margin-left: 25%;
+  
+    font-family: 'Inria Serif';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 200px;
+    line-height: 80px;
+    text-align: center;
+    text-transform: lowercase;
+  
+    color: #050000;
+  
+    border: 5px solid #ebeaea;
+    border-radius: 4px;
+    background-color: #ebeaea;
+    padding: 80px 40px;
+  }
+  
+  
+span{
+    
+text-align: center;
+text-transform: uppercase;
+
+color: #D52C5D;
+}
+
