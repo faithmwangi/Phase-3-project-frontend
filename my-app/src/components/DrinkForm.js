@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './DrinkForm.css'
 
 const DrinkForm = ({ onSubmit }) => {
   const [name, setName] = useState('');
@@ -29,7 +30,7 @@ const DrinkForm = ({ onSubmit }) => {
   };
 
   return (
-    <div>
+    <div className="drink-form">
       <form onSubmit={handleSubmit}>
 
       <h2>Create a New Drink</h2>
