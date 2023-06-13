@@ -44,11 +44,13 @@ const DrinkDetails = ({ drink }) => {
     <div className="drink-details-container">
       <div className="drink-details">
         <h2>{drink.name}</h2>
+        <div className='desc'>
         <p>{drink.description}</p>
-        <p>Category: {drink.category}</p>
-        <p>Ingredients: {drink.ingredients}</p>
+        </div>
+        
         <img src={drink.image_url} alt={drink.name} />
-
+        <p>Ingredients: {drink.ingredients}</p>
+        <p>Category: {drink.category}</p>
         <RatingList drinkId={drink.id} reloadRatings={reloadRatings} />
 
         <RatingForm drinkId={drink.id} onSubmit={handleRatingSubmit} />

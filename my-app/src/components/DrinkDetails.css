@@ -1,20 +1,40 @@
 .drink-details-container {
     display: flex;
     justify-content: center;
+    font-family: 'Inria Serif';
+    font-style: normal;
   }
   
   .drink-details {
-    border: 2px solid black;
+    border: 12px solid rgb(75, 13, 77);
+    border-radius: 10px;
     padding: 20px;
     margin: 10px;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     width: calc(50% - 40px);
     box-sizing: border-box;
-    
-    /* Center items vertically and horizontally */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
-  
+
+h2{
+  font-size: 36px;
+  color: #D52C5D;
+  font-weight: bolder;
+
+}
+ p{
+  font-size: 16px;
+  font-weight: bold;
+ }
+
+ img {
+  border-radius: 8px;
+  border: 4px solid rgb(75, 13, 77);
+ }
+
+ desc {
+  font-size: 30px;
+ }
