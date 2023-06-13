@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import DrinkItem from './DrinkItem';
+import './Drinks.css';
 
 const Drinks = () => {
   const [drinksData, setDrinksData] = useState([]);

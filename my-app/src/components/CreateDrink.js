@@ -21,7 +21,6 @@ const CreateDrink = () => {
 
   return (
     <div>
-      <h2>Create a New Drink</h2>
       <DrinkForm onSubmit={handleNewDrinkSubmit} />
     </div>
   );

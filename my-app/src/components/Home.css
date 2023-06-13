@@ -1,10 +1,10 @@
 body{
-    background-image: url('https://cdn.pixabay.com/photo/2019/05/05/21/42/doodle-4181783_1280.png');
+    background-image: url('file:///Users/jonathannjine/Downloads/sunguk-kim-o9RLeUVowG8-unsplash.jpg');
 }
 
 h1 {
     display: inline-block;
-    margin-top: 15%;
+    margin-top: 5%;
     margin-left: 25%;
   
     font-family: 'Inria Serif';
@@ -15,11 +15,11 @@ h1 {
     text-align: center;
     text-transform: lowercase;
   
-    color: #050000;
+    color: #f9f8f8;
   
-    border: 5px solid #ebeaea;
+    border: 9px solid #503074;
     border-radius: 4px;
-    background-color: #ebeaea;
+    background-color: #090101;
     padding: 80px 40px;
   }
   

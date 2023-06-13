@@ -1,0 +1,20 @@
+.drink-details-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .drink-details {
+    border: 2px solid black;
+    padding: 20px;
+    margin: 10px;
+    background-color: white;
+    width: calc(50% - 40px);
+    box-sizing: border-box;
+    
+    /* Center items vertically and horizontally */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  

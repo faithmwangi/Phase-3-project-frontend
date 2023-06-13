@@ -1,17 +1,27 @@
-
-
 .navbar-list {
-list-style-type: none;
-display: flex;
-}
-
-.navbar-item {
-margin-right: 10%;
-font-size: xx-large;
-background-color: #000;
-}
-
-.navbar-link {
-color: #fff;
-text-decoration: none;
-}
+    list-style-type: none;
+    display: flex;
+    justify-content: center; /* Center the items horizontally */
+    font-family: 'Inria Serif';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 50px;
+    margin-top: 10%;
+    margin-left: 6%;
+  }
+  
+  .navbar-item {
+    margin-right: 7%;
+    font-size: xx-large;
+    background-color: #000;
+    padding: 30px 40px;
+    border-radius: 10px;
+    font-weight: bolder;
+    border: 9px solid #D52C5D;
+  }
+  
+  .navbar-link {
+    color: #fff;
+    text-decoration: none;
+  }
+  

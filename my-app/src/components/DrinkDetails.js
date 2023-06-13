@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import RatingList from './RatingList';
 import RatingForm from './RatingForm';
+import './DrinkDetails.css';
 
 const DrinkDetails = ({ drink }) => {
   const [reloadRatings, setReloadRatings] = useState(false);
@@ -40,15 +41,18 @@ const DrinkDetails = ({ drink }) => {
   }, [drink.id, reloadRatings]);
 
   return (
-    <div className="drink-details">
-      <p>{drink.description}</p>
-      <p>Category: {drink.category}</p>
-      <p>Ingredients: {drink.ingredients}</p>
-      <img src={drink.image_url} alt={drink.name} />
+    <div className="drink-details-container">
+      <div className="drink-details">
+        <h2>{drink.name}</h2>
+        <p>{drink.description}</p>
+        <p>Category: {drink.category}</p>
+        <p>Ingredients: {drink.ingredients}</p>
+        <img src={drink.image_url} alt={drink.name} />
 
-      <RatingList drinkId={drink.id} reloadRatings={reloadRatings} />
+        <RatingList drinkId={drink.id} reloadRatings={reloadRatings} />
 
-      <RatingForm drinkId={drink.id} onSubmit={handleRatingSubmit} />
+        <RatingForm drinkId={drink.id} onSubmit={handleRatingSubmit} />
+      </div>
     </div>
   );
 };

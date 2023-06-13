@@ -31,6 +31,8 @@ const DrinkForm = ({ onSubmit }) => {
   return (
     <div>
       <form onSubmit={handleSubmit}>
+
+      <h2>Create a New Drink</h2>
         <div>
           <label>Name:</label>
           <input type="text" value={name} onChange={(e) => setName(e.target.value)} />
