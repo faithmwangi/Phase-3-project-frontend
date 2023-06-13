@@ -37,7 +37,7 @@ const RatingForm = ({ drinkId, onSubmit }) => {
     <div>
       <form onSubmit={handleSubmit}>
         <label>
-          <h3>Rate the Drink: </h3>
+          <h3>Tried it? Rate it! </h3>
           <input type="number" min="1" max="5" value={rating} onChange={handleRatingChange} />
         </label>
         <button type="submit">Submit Rating</button>

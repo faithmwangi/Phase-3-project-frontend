@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import DrinkItem from './DrinkItem';
 
-
 const Drinks = () => {
   const [drinksData, setDrinksData] = useState([]);
 

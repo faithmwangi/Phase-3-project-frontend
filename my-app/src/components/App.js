@@ -4,6 +4,7 @@ import './App.css';
 import Navbar from './NavBar'; 
 import Home from './Home';
 import Drinks from './Drinks';
+import CreateDrink from './CreateDrink';
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Home />} /> 
           <Route path="/drinks" element={<Drinks />} />
+          <Route path='/createdrink' element={<CreateDrink />} />
         </Routes>
       </div>
     </Router>
